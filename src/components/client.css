@@ -1,0 +1,5 @@
+.client-container{
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+}

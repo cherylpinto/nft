@@ -1,0 +1,63 @@
+.free{
+    position: relative;
+    margin: 5rem 0;
+    padding: 0 3rem;
+}
+.free-container{
+    display: flex;
+    height: 25rem;
+    position: relative;
+    border-radius: 1rem;
+    
+}
+.background {
+    z-index: -1;
+}
+
+.free-pink{
+    background: linear-gradient(to right,#ff3998,#ff8139,#39ffa0 );
+}
+.free-content{
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 3rem;
+    padding-left: 5rem;
+    font-size: 1.3rem;
+    color: black;
+}
+.free-description{
+    color: black;
+}
+.free-title {
+    font-size: 2rem;
+}
+.cards{
+    display: flex;
+    position: absolute;
+    top: 4rem;
+    right: 40%;
+}
+.card1 {
+    top: 0;
+    position: absolute;
+    transform: rotate(-10deg);
+    z-index: 3;
+    font-size: 0.6rem;
+}
+.card1 .card-image img{
+    height: 10rem;
+    width: 12rem;
+}
+.card2 {
+    top: 0;
+    z-index: 2;
+    position: absolute;
+    left: 10rem;
+    transform: rotate(5deg);
+    font-size: 0.7rem;
+}
+.card2 .card-image img{
+    height: 10rem;
+}

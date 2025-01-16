@@ -1,0 +1,20 @@
+.super-rare-cards{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    margin-bottom: 4rem;
+}
+.super-rare-title-container{
+    padding: 4rem 4rem;
+}
+.super-rare-title{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.super-rare-description{
+    color: rgb(158, 156, 156);
+}
+.super-rare-description a{
+    color:rgb(158, 156, 156) ;
+    font-weight: bold;
+}
