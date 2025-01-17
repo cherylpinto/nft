@@ -5,6 +5,7 @@ import Free from "./components/Free";
 import Client from "./components/client";
 import SuperRare from "./components/SuperRare";
 import Like from "./components/Like";
+import Release from "./components/Release";
 function App() {
   return (
     <div className="app-container">
@@ -14,6 +15,7 @@ function App() {
       <Client/>
       <SuperRare/>
       <Like></Like>
+      <Release/>
     </div>
   );
 }

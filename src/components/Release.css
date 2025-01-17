@@ -1,0 +1,73 @@
+.releases{
+    padding: 0 4rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
+.release-orange{
+    background-color: #ff8139;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem;
+    height: 25rem;
+    border-radius: 1rem;
+}
+.release-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.release-orange .image{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-right:6rem ;
+
+}
+.release-orange .image img{
+    height:20rem;
+}
+ .release-content .release-title{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+ .release-content .release-description {
+    color: black;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+ .release-content .release-description a{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.release-content{
+    width: 40%;
+    gap:10px;   
+}
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.release-green{
+    background-color:#39ffa0 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem;
+    height: 25rem;
+    border-radius: 1rem;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.release-green .card-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-left: 4rem;
+}
+.release-green .card-container .card-image img{
+   height:15rem;
+}
