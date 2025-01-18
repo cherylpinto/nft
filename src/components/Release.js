@@ -19,8 +19,8 @@ const Release = () => {
             not to miss out!
           </p>
           <p className="release-description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
-            Check them out <BsArrowRight />
+          <a href="#" className="release-link">
+            Check them out <BsArrowRight className="release-link"/>
           </a>
         </div>
         <div className="image">
@@ -50,7 +50,7 @@ const Release = () => {
           </p>
           <p className="release-description">50% of proceeds go to charity.</p>
           <a href="#" className="release-link">
-            Check them out <BsArrowRight />
+            Check them out <BsArrowRight className="release-link"/>
           </a>
         </div>
       </div>
