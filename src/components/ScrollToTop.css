@@ -1,0 +1,39 @@
+.scrollToTop {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    z-index: 100;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    border-radius: 5rem;
+    height: 4rem;
+    width: 4rem;
+    border: solid 3px transparent;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0)
+      ),
+      linear-gradient(101deg,  #ff3998, #ff8139);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #111111 inset;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scrollToTop:hover{
+    box-shadow: none;
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
+  }
+a {
+    svg {
+      font-size: 2rem;
+      color: white;
+    }
+  }

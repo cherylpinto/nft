@@ -49,7 +49,7 @@ const Release = () => {
             not to miss out!
           </p>
           <p className="release-description">50% of proceeds go to charity.</p>
-          <a href="#" className="link">
+          <a href="#" className="release-link">
             Check them out <BsArrowRight />
           </a>
         </div>

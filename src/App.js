@@ -6,6 +6,9 @@ import Client from "./components/client";
 import SuperRare from "./components/SuperRare";
 import Like from "./components/Like";
 import Release from "./components/Release";
+import Signup from "./components/Signup";
+import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <div className="app-container">
@@ -14,8 +17,11 @@ function App() {
       <Free/>
       <Client/>
       <SuperRare/>
-      <Like></Like>
       <Release/>
+      <Like></Like>
+      <Signup/>
+      <Footer/>
+      <ScrollToTop/>
     </div>
   );
 }
