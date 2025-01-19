@@ -36,7 +36,7 @@
 .cards{
     display: flex;
     position: absolute;
-    top: 4rem;
+    top: -3rem;
     right: 40%;
 }
 .card1 {
